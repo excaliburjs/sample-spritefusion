@@ -1,0 +1,23 @@
+{
+  "name": "sample-spritefusion",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html --dist-dir ./dist --public-url ./"
+  },
+  "author": "Erik Onarheim",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/excaliburjs/sample-spritefusion/issues"
+  },
+  "homepage": "https://github.com/excaliburjs/sample-spritefusion#readme",
+  "dependencies": {
+    "@excaliburjs/plugin-spritefusion": "0.28.6",
+    "excalibur": "0.28.6",
+    "parcel": "2.11.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
+}

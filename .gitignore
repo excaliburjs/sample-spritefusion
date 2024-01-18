@@ -1,0 +1,3 @@
+.parce-cache
+dist/
+node_modules
