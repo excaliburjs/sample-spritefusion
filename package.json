@@ -13,11 +13,11 @@
   },
   "homepage": "https://github.com/excaliburjs/sample-spritefusion#readme",
   "dependencies": {
-    "@excaliburjs/plugin-spritefusion": "0.28.6",
-    "excalibur": "0.28.6",
-    "parcel": "2.11.0"
+    "@excaliburjs/plugin-spritefusion": "0.29.0",
+    "excalibur": "0.29.0"
   },
   "devDependencies": {
+    "parcel": "2.11.0",
     "typescript": "5.3.3"
   }
 }

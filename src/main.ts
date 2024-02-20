@@ -4,7 +4,8 @@ import { Resources, loader } from './resources';
 const game = new ex.Engine({
     width: 800,
     height: 600,
-    antialiasing: false
+    pixelArt: true,
+    pixelRatio: 2
 });
 
 game.start(loader).then(() => {
