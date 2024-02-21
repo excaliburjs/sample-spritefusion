@@ -12,6 +12,7 @@ export const Resources = {
     SpriteFusionMap: new SpriteFusionResource({
       mapPath,
       spritesheetPath,
+      useTileMapCameraStrategy: true,
       entityTileIdFactories: {
         2: (props) => {
           const player = new Player(props.worldPos);
