@@ -1,17 +1,14 @@
-import { ImageFiltering, ImageSource, Loadable, Loader, Resource, TileMap } from "excalibur";
+import { ImageFiltering, ImageSource, Loadable, Loader, Resource, TileMap, vec } from "excalibur";
 
-// Import paths to work with Parcel
-import heroPath from '../img/Solaria Demo Pack Update 03/Solaria Demo Pack Update 03/16x16/Sprites/Hero 01.png';
-import mapPath from '../map/map.json';
-import spritesheetPath from '../map/spritesheet.png';
 import { Player } from "./player";
 import { SpriteFusionResource } from "@excaliburjs/plugin-spritefusion";
 
+const heroPath = './img/Solaria Demo Pack Update 03/16x16/Sprites/Hero 01.png';
 export const Resources = {
     HeroSpriteSheetPng: new ImageSource(heroPath, false, ImageFiltering.Pixel),
     SpriteFusionMap: new SpriteFusionResource({
-      mapPath,
-      spritesheetPath,
+      mapPath: './map/map.json',
+      spritesheetPath: './map/spritesheet.png',
       useTileMapCameraStrategy: true,
       entityTileIdFactories: {
         2: (props) => {
